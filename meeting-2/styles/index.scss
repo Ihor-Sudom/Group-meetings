@@ -1,0 +1,31 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 95%;
+  background-color: #f6f6f6;
+  font-family: 'Karla', sans-serif;
+}
+
+h6 {
+  margin: 0;
+  color: #666;
+}
+
+h5 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+
+@import 'navigation.scss';
+
+@import 'products.scss';
